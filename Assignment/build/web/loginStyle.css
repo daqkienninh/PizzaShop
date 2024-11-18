@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 27, 2024, 3:36:02 PM
+    Author     : admin
+*/
+
+.header{
+    display: flex;
+    color: white;
+    background-color: rgb(0,144,196);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title{
+    display: flex;
+    margin-left: 15px;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.header_login{
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.categories{
+    display: flex;
+}
+
+.text:hover{
+    background-color: #555;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important} 
+  ul li ul li:hover {background: #a3a0a0}
+
+  button{
+    color: white;
+    background-color: rgb(58,67,76);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  button:hover{
+    background-color: #a3a0a0;
+  }
+
+  .bdy{
+    background-color: rgb(242,246,249);
+    padding: 50px;
+  }
+
+  .noti{
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+
+  .noti h1{
+    margin: 0px;
+  }
+
+  .frm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  #username{
+    width: 170px;
+    height: 20px;
+    border: 2px solid rgb(0,144,196);
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  #pwd{
+    width: 170px;
+    height: 22px;
+    border: 2px solid rgb(0,144,196);
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  #lg{
+    padding: 5px 8px;
+    color: white;
+    background-color: rgb(58,67,76);
+    border-radius: 3px;
+    margin-left: 50px;
+  }

@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2024, 7:29:47 PM
+    Author     : admin
+*/
+
+.createNew a{
+    text-decoration: none;
+}
+
+.carlist h1{
+    padding: 0px 0px;
+    margin: 10px 2px;
+}
+
+.createNew{
+    padding-bottom: 20px;
+}
+
+.car{
+    border-collapse: collapse;
+  width: 100%;
+}
+
+.car td, car th{
+  padding: 8px;
+}
+
+.car th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.car td:nth-child(6){
+    text-align: center;
+    text-decoration: none;
+}
+
+.car td:nth-child(6) a{
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2024, 6:53:14 PM
+    Author     : admin
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 12, 2024, 6:17:24 PM
+    Author     : admin
+*/
+h1{
+    text-align: center;
+    border-bottom: 1px solid slategrey;
+}
+
+.AddCarForm{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    
+}
+
+
+
+.AddCarForm form input{
+    width: 250px;
+    height: 30px;
+    margin: 10px 0px;
+}
+
+#btn{
+    
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    color: antiquewhite;
+    border-radius: 5px;
+}

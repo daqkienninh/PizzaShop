@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./loginStyle.css">
+    </head>
+    <body>
+        <div class="header"> <!--header-->
+            <div class="header_title"> <!--Header title-->
+                <h1>PizzaStore</h1>
+            </div>
+
+            <div class="header_menu"> <!--Header menu-->
+                <div class="text">
+                    <a href="#">Pizzas</a>
+                </div>
+
+                <div class="categories">
+                    <ul>
+                        <li>
+                            <a href="#">Categories</a>
+                            <ul>
+                                <li><a href="#">Salad</a></li>
+                                <li><a href="#">Drink</a></li>
+                                <li><a href="#">Deserts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="text">
+                    <a href="#">Reiview</a>
+                </div>
+            </div>
+
+            <div class="header_login"> <!--Header Login-->
+                <div>
+                    <a href="CreateAccount.jsp">Register</a>
+                </div>
+                <div>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div> <!--Finnish Header-->
+
+        <div class="bdy"> <!--Body-->
+            <div class="noti"> <!--Nofitication-->
+                <h1>Please log in here.</h1>
+                <p>Enter your details below</p>
+            </div>
+
+            <div class="frm"> <!--Form-->
+                <form action="LoginController" method="post">
+                    <label for="username">User name:</label><br>
+                    <input type="text" id="username" name="txtUserName"><br>
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="txtPassword"><br>
+                    <input type="submit" id="lg" value="Log in">
+                  </form>
+            </div>
+        </div>
+    </body>
+</html>
